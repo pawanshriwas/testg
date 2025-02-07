@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList } from 'react-native';
-import { getGym } from './gym';
+import { getGym } from '../service/gymService';
 
 const gymList = () => {
   const [gym, setGym] = useState([]);
